@@ -137,7 +137,7 @@ function AdminPanel() {
   };
 
   return (
-    <div className="flex flex-col sm:flex-row h-screen bg-gray-100">
+    <div className="flex flex-col sm:flex-row h-screen bg-gray-100 cursor-default">
       <aside className="w-full sm:w-72 bg-white shadow-xl p-4 sm:p-6 hidden sm:flex flex-col items-center">
         <img src={Logo} alt="Logo" className="w-24 h-24 object-contain mb-4" />
         <p className="text-center text-lg font-bold text-black">
@@ -157,7 +157,7 @@ function AdminPanel() {
             <button
               key={name}
               onClick={() => setActiveSection(name)}
-              className={`w-full flex items-center px-5 py-2 rounded-lg outline-none text-base font-medium transition ${
+              className={`w-full flex items-center px-5 py-2 rounded-lg outline-none text-base cursor-pointer font-medium transition ${
                 activeSection === name
                   ? "bg-blue-100 text-blue-600 font-semibold shadow-sm"
                   : "text-gray-600 hover:bg-gray-100"
@@ -177,12 +177,12 @@ function AdminPanel() {
               Dashboard
             </Button>
             <h1
-              className="text-3xl sm:text-4xl font-bold text-gray-900 tracking-tight"
+              className="text-3xl sm:text-4xl font-bold cursor-pointer text-gray-900 tracking-tight"
               onClick={() => setActiveSection("Dashboard")}
             >
               Admin <span className="text-blue-600">Dashboard</span>
             </h1>
-            <p className="text-xs lg:text-xl text-gray-600 font-semibold mt-1">
+            <p className="text-xs lg:text-xl text-gray-600 cursor-default font-semibold mt-1">
               Manage <span className="font-medium text-blue-600">Services</span> and <span className="font-medium text-blue-600">Job Applications</span> efficiently.
             </p>
           </div>

@@ -80,7 +80,7 @@ function Header() {
             <li key={link.name}>
               <button
                 onClick={() => handleScroll(link.id)}
-                className={`px-4 py-1  rounded-2xl transition duration-400 ${
+                className={`px-4 py-1  rounded-2xl transition cursor-pointer duration-400 ${
                   activeSection === link.id
                     ? "border-b-4 border-blue-600 shadow-sm shadow-gray-600"
                     : "text-gray-700 border-b-4  border-transparent hover:text-blue-600"

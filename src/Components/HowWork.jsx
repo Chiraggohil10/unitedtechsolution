@@ -67,7 +67,7 @@ const SelectActionCard = () => {
   const [selectedCard, setSelectedCard] = useState(0);
 
   return (
-    <div className="mx-3 lg:mx-20 my-15">
+    <div className="mx-3 lg:mx-20 my-15 cursor-default">
       <h1 className="text-center text-3xl sm:text-4xl font-bold text-gray-900 mb-2">
         How <span className="text-blue-600">We Work ?</span>
       </h1>

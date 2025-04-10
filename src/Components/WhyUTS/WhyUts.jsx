@@ -6,7 +6,7 @@ function WhyUts() {
   const navigate = useNavigate();
 
   return (
-    <section id="about" className='scroll-mt-30' >
+    <section id="about" className='scroll-mt-30 cursor-default' >
       <div
       className="flex flex-col items-center my-15 py-12 px-4 sm:px-6 md:px-12 bg-gray-100 mx-4 lg:mx-20 sm:mx-5 md:mx-10 rounded-2xl shadow-xl scroll-m-20"
       

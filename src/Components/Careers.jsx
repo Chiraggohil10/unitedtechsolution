@@ -63,7 +63,7 @@ export default function Careers() {
   return (
     <section
       id="careers"
-      className="w-100% py-12 px-2 sm:px-6 md:px-12 bg-gray-100 mx-4 lg:mx-20 sm:mx-5  md:mx-10 my-15 rounded-2xl shadow-xl scroll-m-15"
+      className="w-100% py-12 px-2 sm:px-6 cursor-default md:px-12 bg-gray-100 mx-4 lg:mx-20 sm:mx-5  md:mx-10 my-15 rounded-2xl shadow-xl scroll-m-15"
     >
       <div className="max-w-lg mx-auto bg-white rounded-2xl shadow-2xl lg:p-6 p-4 md:p-6 sm:p-8">
         <h1 className="text-3xl sm:text-4xl font-bold text-center mb-2 text-gray-800">
@@ -106,7 +106,7 @@ export default function Careers() {
             value={formData.jobRole}
             onChange={handleChange}
             required
-            className="w-full border border-gray-500 text-gray-500 rounded-lg p-3 focus:outline-none focus:ring-2 focus:ring-blue-500 appearance-none"
+            className="w-full border border-gray-500 cursor-pointer text-gray-500 rounded-lg p-3 focus:outline-none focus:ring-2 focus:ring-blue-500 appearance-none"
           >
          
             <option value="" disabled hidden>

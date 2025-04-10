@@ -23,7 +23,7 @@ function Technology() {
   ]
 
   return (
-    <div className="flex flex-col items-center text-center py-16 my-15 lg:px:12 bg-gray-100 rounded-2xl shadow-xl mx-4 md:mx-12 lg:mx-20 scroll-m-20">
+    <div className="flex flex-col items-center cursor-default text-center py-16 my-15 lg:px:12 bg-gray-100 rounded-2xl shadow-xl mx-4 md:mx-12 lg:mx-20 scroll-m-20">
       <div className="w-full max-w-7xl">
       <h1 className="text-2xl sm:text-3xl md:text-4xl font-bold leading-tight mb-6 drop-shadow-lg">
         Technologies <span className="text-blue-600">We Use</span>

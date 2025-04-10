@@ -77,7 +77,7 @@ function Services() {
   const navigate = useNavigate();
 
   return (
-    <section id="services"  className='scroll-mt-30' >
+    <section id="services"  className='scroll-mt-30 cursor-default' >
       <div className="py-12  sm:px-6 md:px-12 bg-gray-100 mx-2 lg:mx-20 sm:mx-5 md:mx-10 my-15 rounded-2xl shadow-xl scroll-m-20" >
       <div className="text-center mb-12">
         <h1 className="text-2xl sm:text-3xl md:text-4xl font-bold leading-tight mb-4 drop-shadow-lg">

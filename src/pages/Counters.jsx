@@ -42,7 +42,7 @@ const AnimatedCounters = () => {
   ];
 
   return (
-    <div className="py-12 px-4 sm:px-6 md:px-12 bg-gray-100 mx-4 lg:mx-20 sm:mx-5 md:mx-10 my-15 rounded-2xl shadow-xl scroll-m-20">
+    <div className="py-12 px-4 sm:px-6 md:px-12 bg-gray-100 mx-4 lg:mx-20 cursor-default sm:mx-5 md:mx-10 my-15 rounded-2xl shadow-xl scroll-m-20">
       <motion.div
         className="text-center mb-10"
         initial={{ opacity: 0, y: 20 }}

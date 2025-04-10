@@ -23,7 +23,7 @@ function Footer() {
   };
 
   return (
-    <section id="contact"  className='scroll-mt-30' >
+    <section id="contact"  className='scroll-mt-30 cursor-default' >
       <footer className="text-gray-300 py-10 px-4  lg:px-20  shadow-2xl mt-10 shadow-gray-900">
       <div>
         <div className="flex flex-wrap justify-between items-start gap-7 lg:gap-5">
