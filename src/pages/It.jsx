@@ -1,7 +1,7 @@
 import React from "react";
 import BackButton from "../Components/BackButton";
-import IT from "../assets/it.webp";
-import IT2 from "../assets/it2.webp";
+import IT from "../assets/IT.webp";
+import IT2 from "../assets/IT2.webp";
 import Button from "../Components/common/Button";
 import { useNavigate } from "react-router-dom";
 
