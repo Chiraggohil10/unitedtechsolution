@@ -1,6 +1,6 @@
 import React from 'react';
 import BackButton from '../Components/BackButton';
-import Digital from '../assets/digital.webp';
+import Digital from '../assets/Digital.webp';
 import Button from '../Components/common/Button';
 import { useNavigate } from 'react-router-dom';
 
