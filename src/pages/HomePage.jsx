@@ -4,7 +4,7 @@ import WhyUts from '../Components/WhyUTS/WhyUts'
 import HowWork from '../Components/HowWork'
 import FreeConstultant from '../Components/FreeConstultant'
 import Services from '../Components/Services'
-import Careers from '../Components/careers'
+import Careers from '../Components/Careers.jsx'
 import Counters from '../pages/Counters'
 import Technology from '../Components/Technology'
 
