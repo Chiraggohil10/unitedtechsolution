@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import axios from "axios";
-import Logo from "../../assets/logoo.png";
+import Logo from "../../assets/Logoo.png";
 import { useAuth } from "../../Context/AuthContext";
 import Button from "../common/Button";
 import { MdDashboard, MdLogout } from "react-icons/md";

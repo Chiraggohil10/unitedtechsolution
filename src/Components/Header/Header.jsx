@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { useNavigate, useLocation } from "react-router-dom";
-import Logo from "../../assets/logoo.png";
+import Logo from "../../assets/Logoo.png";
 import { FaBarsStaggered } from "react-icons/fa6";
 import { ImCross } from "react-icons/im";
 
