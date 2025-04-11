@@ -95,6 +95,14 @@
       "email": "jay@gmail.com",
       "phone": "1234567890",
       "service": "Blockchain & Cryptocurrency Solution"
+    },
+    {
+      "id": "1c0f",
+      "firstName": "Chirag",
+      "lastName": "Gohil",
+      "email": "parth@gmail.com",
+      "phone": "0909942349",
+      "service": "Cloud Solution & Hosting Services"
     }
   ],
   "Career": [
@@ -201,6 +209,22 @@
       "phone": "1234567890",
       "jobRole": "React Developer",
       "message": "Hi"
+    },
+    {
+      "id": "8dc6",
+      "name": "Chirag Gohil",
+      "email": "divya@gmail.com",
+      "phone": "0909942349",
+      "jobRole": "Flutter Developer",
+      "message": "hj"
+    },
+    {
+      "id": "47bf",
+      "name": "Chirag Gohil",
+      "email": "parth@gmail.com",
+      "phone": "0909942349",
+      "jobRole": "Flutter Developer",
+      "message": "hello"
     }
   ]
 }
