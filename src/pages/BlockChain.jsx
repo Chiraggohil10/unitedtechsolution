@@ -1,7 +1,7 @@
 import React from "react";
 import BackButton from "../Components/BackButton";
-import BlockChains from "../assets/blockchain.jpg";
-import BlockChains2 from "../assets/blockchain2.jpg";
+import BlockChains from "../assets/BlockChain.jpg";
+import BlockChains2 from "../assets/BlockChain2.jpg";
 import Button from "../Components/common/Button";
 import { useNavigate } from "react-router-dom";
 

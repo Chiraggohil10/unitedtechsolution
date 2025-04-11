@@ -2,7 +2,6 @@ import React from "react";
 import BackButton from "../Components/BackButton";
 import Mobiles from "../assets/mobile.webp";
 import Mobiles2 from "../assets/mobile2.png";
-import Mobiles3 from "../assets/mobile3.png";
 import Button from "../Components/common/Button";
 import { useNavigate } from "react-router-dom";
 

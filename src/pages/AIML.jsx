@@ -1,7 +1,7 @@
 import React from "react";
 import AI from "../assets/AI.png";
 import BackButton from "../Components/BackButton";
-import AIML2 from "../assets/AIML2.webp";
+import AIML2 from "../assets/aiml2.webp";
 import Button from "../Components/common/Button";
 import { useNavigate } from "react-router-dom";
 
