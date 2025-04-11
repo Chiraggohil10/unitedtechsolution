@@ -1,7 +1,7 @@
 import React from "react";
-import { Link, NavLink, useNavigate } from "react-router-dom";
+import {  useNavigate } from "react-router-dom";
 import { FaFacebookF, FaLinkedinIn, FaInstagram } from "react-icons/fa";
-import Logo from "../../assets/logoo.png";
+import Logo from "../../assets/Logoo.png";
 import { IoIosMail } from "react-icons/io";
 import Mail from "../OpenMail";
 import { IoLocationOutline } from "react-icons/io5";
