@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { CheckCircle2 } from "lucide-react"; // Optional: Install lucide-react or use another icon lib
 
 const cards = [
   {
@@ -67,12 +68,12 @@ const SelectActionCard = () => {
   const [selectedCard, setSelectedCard] = useState(0);
 
   return (
-    <div className="mx-3 lg:mx-20 my-15 cursor-default">
-      <h1 className="text-center text-3xl sm:text-4xl font-bold text-gray-900 mb-2">
-        How <span className="text-blue-600">We Work ?</span>
-      </h1>
+    <div className="mx-3 lg:mx-20 my-16">
+       <h1 className="text-2xl sm:text-3xl md:text-4xl text-center font-bold leading-tight mb-6 drop-shadow-lg">
+          How <span className="text-blue-600">We Work ?</span>
+        </h1>
 
-      <div className="grid gap-6 grid-cols-1 sm:grid-cols-2 lg:grid-cols-3">
+      <div className="grid gap-8 grid-cols-1 sm:grid-cols-2 lg:grid-cols-3">
         {cards.map((card, index) => {
           const isSelected = selectedCard === index;
 
@@ -80,27 +81,34 @@ const SelectActionCard = () => {
             <div
               key={card.id}
               onClick={() => setSelectedCard(index)}
-              className={`rounded-2xl border transition-all duration-300 cursor-pointer shadow-md hover:shadow-xl ${
+              className={`relative transition-all duration-300 transform hover:-translate-y-1 hover:shadow-xl p-6 rounded-3xl cursor-pointer bg-white shadow-md ${
                 isSelected
-                  ? "border-blue-600 bg-blue-50 scale-[1.01]"
-                  : "border-gray-200 bg-white"
+                  ? "border-2 border-blue-500 ring-2 ring-blue-100"
+                  : "border-2 border-gray-200"
               }`}
             >
-              <div className="lg:p-5 p-3">
-                <h2 className="lg:text-lg text-sm font-bold text-blue-600 uppercase tracking-wide text-center">
-                  {card.title}
-                </h2>
+              {/* Optional top accent */}
+              <div
+                className={`h-1 w-full rounded-full mb-4 ${
+                  isSelected ? "bg-gradient-to-r from-blue-500 to-indigo-500" : "bg-gray-200"
+                }`}
+              />
 
-                <p className="text-gray-600 text-sm text-center mt-1 mb-4 font-medium">
-                  {card.description}
-                </p>
+              <h2 className="text-xl font-semibold text-blue-700 text-center mb-1">
+                {card.title}
+              </h2>
+              <p className="text-center text-gray-500 text-[12px] lg:text-lg mb-4 font-medium">
+                {card.description}
+              </p>
 
-                <ul className="list-disc space-y-2 pl-5 text-sm text-gray-700">
-                  {card.points.map((point, idx) => (
-                    <li key={idx}>{point}</li>
-                  ))}
-                </ul>
-              </div>
+              <ul className="space-y-3 text-gray-700 text-xs lg:text-sm">
+                {card.points.map((point, idx) => (
+                  <li key={idx} className="flex items-start gap-2">
+                    <CheckCircle2 className="text-blue-500 w-5 h-5 mt-0.5" />
+                    <span>{point}</span>
+                  </li>
+                ))}
+              </ul>
             </div>
           );
         })}
